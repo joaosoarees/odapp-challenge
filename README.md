@@ -12,6 +12,6 @@ Faça um clone desse repositório rodando:
 
 Entre na pasta rodando pelo terminal: <code>cd odapp-challenge</code>
 
-Rode yarn para instalar as dependências do projeto;
+Rode <code>yarn</code> para instalar as dependências do projeto;
 
-Rode yarn start para iniciar o servidor de desenvolvimento.
+Rode <code>yarn start</code> para iniciar o servidor de desenvolvimento.
