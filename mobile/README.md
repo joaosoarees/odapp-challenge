@@ -25,3 +25,5 @@ Com a modificação feita no Visual Studio Code, salve o arquivo com o comando "
 Voltando para a página de conexão do Expo, basta abrir o aplicativo do Expo em seu celular, selecionar "Scan QR Code", e escanear o QR Code na página do seu navegador.
 
 Seu celular começará a baixar a aplicação, aguarde alguns instantes e o aplicativo já vai estar rodando.
+
+Certfique-se de que o backend já esteja rodando para exibir o dados dentro do MongoDB.
