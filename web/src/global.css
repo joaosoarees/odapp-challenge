@@ -1,0 +1,25 @@
+/* Utilizando uma fonte disponibilizada pela google */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/* Resetando comportamento padrão do HTML */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* por padrão não é ocupado 100% da altura da tela */
+html, body, #root {
+    height: 100%;
+}
+
+/* Plano de fundo da pagina */
+body {
+    background: #E5E6F0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: Roboto, sans-serif;
+}

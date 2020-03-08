@@ -1,0 +1,33 @@
+/* estilização do campo dos Pacientes */
+li.pacient-item {
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+ }
+
+ li.pacient-item header {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+
+ li.pacient-item header .pacient-info {
+    margin-left: 10px;
+}
+
+ .pacient-info strong {
+     margin-top: 10px;
+     display: block;
+     font-size: 16px;
+     color: #333;
+ }
+
+ li.pacient-item p {
+     color: #666;
+     font-size: 14px;
+     line-height: 20px;
+     margin-left: 10px;
+     margin-top: 10px;
+ }
+
+ 

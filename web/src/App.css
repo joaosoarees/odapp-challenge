@@ -1,0 +1,41 @@
+
+/* Configurando estilização da Div APP */
+#App {
+    max-width: 1200px; /* largura maxima */
+    margin: 0 auto; /* se a tela for muito grande, deixa tudo centralizado */
+    padding: 250px 100px;
+    display: flex;
+    flex-direction: row; /* ficar alinhado uma ao lado da outra */
+    align-items: flex-start; /* ficar sempre alinhado ao topo */
+}
+
+#App main {
+    margin-left: 30px;
+}
+/* deixando o layout responsivo */
+@media (max-width: 800px) {
+    
+    #App {
+        flex-direction: column;
+    }
+
+    #App main {
+        margin-left: 0;
+        margin-top: 30px;
+        max-width: 305px;
+        min-width: 305px;
+    }
+
+    #App footer {
+        max-width: 305px;
+        min-width: 305px;
+        position: relative;
+        margin-top: 10px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #App aside {
+        width: 305px;
+    }
+}
