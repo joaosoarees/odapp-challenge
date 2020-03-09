@@ -29,6 +29,7 @@ function Main () {
                 <Text style={styles.pacienteEstado}>Estado: {pacientes.estado}</Text>
             </View>
         ))}
+        <Button onPress={reload} title="Atualizar" color="#7d40e7">Atualizar</Button>
         </ScrollView>
     </>
     );
