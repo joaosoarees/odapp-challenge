@@ -11,7 +11,7 @@ const PacienteSchema = new mongoose.Schema({
     },
     dataCadastro: {
         type: Date,
-        default: Date,
+        default: Date(Date.now()),
     },
     cidade: {
         type: String,
