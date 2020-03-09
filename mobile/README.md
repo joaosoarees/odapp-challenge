@@ -10,6 +10,8 @@ Selecione a pasta mobile através do comando <code>cd</code> em seu terminal, co
 
 Com a pasta selecionada Rode primeiro <code>npm install</code> ou <code>yarn install</code> para instalar as dependencias do projeto, aguarde a finalização e rode <code>yarn start</code> ou <code>npm start</code> no seu terminal, ou no terminal integrado do Visual Studio Code para se redirecionar a página de conexão do Expo.
 
+Verifique em seu terminal se será necessário baixar uma dependencia "expo-cli" se sim, bastar digitar "y" no terminal, e pressionar enter.
+
 # Expo
 
 Com página de conexão aberta, teremos que realizar uma modificação dentro do código.
