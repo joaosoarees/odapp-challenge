@@ -1,7 +1,7 @@
 # Iniciando Servidor
 Selecione a pasta backend através do comando <code>cd</code> em seu terminal, com a pasta selecionada rode <code>code .</code> para abrir seu Visual Studio Code
 
-Com a pasta selecionada Rode <code>yarn start</code> ou <code>npm start</code> no seu terminal, ou no terminal integrado do Visual Studio Code para iniciar o servidor local.
+Com a pasta selecionada Rode primeiro <code>npm install</code> ou <code>yarn install</code> para instalar as dependencias do projeto, aguarde a finalização e rode <code>yarn start</code> ou <code>npm start</code> no seu terminal, ou no terminal integrado do Visual Studio Code para iniciar o servidor local.
 
 # Banco de dados (Mongo DB Compass) 
 Acessando o banco de dados:
